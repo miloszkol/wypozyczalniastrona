@@ -1,0 +1,138 @@
+/* Resetowanie domyślnych styli */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Stylowanie body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Stylowanie headera */
+  header {
+    background-color: #1e90ff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Stylowanie sekcji */
+  section {
+    padding: 40px;
+    margin-bottom: 20px;
+  }
+  
+  section h1,
+  section h2 {
+    color: #1e90ff;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    line-height: 1.5;
+  }
+  
+  /* Stylowanie galerii */
+  .image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .image-gallery img {
+    width: 30%;
+    height: auto;
+  }
+  
+  /* Stylowanie formularza */
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  form button {
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Stylowanie stopki */
+  footer {
+    background-color: #1e90ff;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  #home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('sklasa.jfif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  #home h1,
+  #home p {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  #home h1 {
+    font-size: 30px;
+  }
+  
+  #home p {
+    font-size: 18px;
+  }
+
+  #gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image-gallery img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
