@@ -1,18 +1,18 @@
-/* Resetowanie domyślnych styli */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Stylowanie body */
+
   body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     color: #333;
   }
   
-  /* Stylowanie headera */
+ 
   header {
     background-color: #1e90ff;
     padding: 20px;
@@ -34,7 +34,7 @@
     font-size: 18px;
   }
   
-  /* Stylowanie sekcji */
+
   section {
     padding: 40px;
     margin-bottom: 20px;
@@ -50,7 +50,7 @@
     line-height: 1.5;
   }
   
-  /* Stylowanie galerii */
+
   .image-gallery {
     display: flex;
     justify-content: space-between;
@@ -62,7 +62,6 @@
     height: auto;
   }
   
-  /* Stylowanie formularza */
   form label {
     display: block;
     margin-bottom: 10px;
